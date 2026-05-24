@@ -1,7 +1,7 @@
 import { CustomError } from "@/types/custom-error.type";
 import axios from "axios";
 
-const baseURL = import.meta.env.VITE_API_BASE_URL;
+const baseURL = "https://turbosync-backend.onrender.com/api";
 
 const options = {
   baseURL,
