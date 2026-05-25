@@ -6,7 +6,7 @@ const baseURL = "https://turbosync-backend.onrender.com/api";
 const options = {
   baseURL,
   withCredentials: true,
-  timeout: 10000,
+  // timeout: 10000,
 };
 
 const API = axios.create(options);
